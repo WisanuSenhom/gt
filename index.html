@@ -89,7 +89,7 @@ function myFunction(arr) {
   var out = "";
   var i;
   for(i = 0; i < arr.length; i++) {
-    out +=   'Check-'+arr[i].type +' '+arr[i].datetime +' '+ arr[i].name +' '+ arr[i].work +' '+ arr[i].note+'<br>'+'<a href="' + arr[i].y + '">อนุมัติ</a>'+' | '+'<a href="' + arr[i].n + '">ไม่อนุมัติ</a><br>';
+    out +=   'Check-'+arr[i].type +' '+arr[i].datetime +'<br>'+ arr[i].name +'<br>'+ arr[i].work +' '+ arr[i].note+'<br>'+'<a href="' + arr[i].y + '">อนุญาต</a>'+' | '+'<a href="' + arr[i].n + '">ไม่อนุญาต</a><br>';
   }
   document.getElementById("id01").innerHTML = out;
 }
